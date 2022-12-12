@@ -1,0 +1,264 @@
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --accent-secondary-color: #188CE8;
+    --white-color: #FFFFFF;
+    --bg1-color: #F5F5F5;
+    --bg2-color: #F5F4FA;
+    --bg3-color: #2F303A;
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--white-color);
+
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background: #2F303A;
+}
+
+/* header */
+
+.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.logo {
+    color: #000000;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo.footer {
+    color: var(--white-color);
+}
+
+.logo .accent {
+    color: var(--accent-color);
+}
+
+.header-nav {
+    color: var(--title-color);
+    outline: none;
+    text-decoration: none;
+}
+
+.header-nav:link,
+.header-nav:active,
+.header-nav:hover,
+.header-nav:focus {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.header-nav.current {
+    color: var(--accent-color);
+}
+
+.header-contacts {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.header-contacts:active,
+.header-contacts:hover,
+.header-contacts:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    border-color: transparent;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-secondary-color);
+}
+
+/* features */
+
+.features-title {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* services */
+
+.services-title {
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* team */
+
+.team {
+    background-color: var(--bg2-color);
+}
+
+.team-card {
+    background-color: var(--white-color);
+}
+
+.team-title {
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-name {
+    color: var(--title-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-job {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* footer address */
+
+.address-address {
+    color: #FFFFFF;
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.address-mail,
+.address-phone {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+}
+
+/* portfolio */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.button-filter {
+    color: #212121;
+    background-color: var(--bg2-color);
+    border-color: transparent;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-filter:active,
+.button-filter:hover,
+.button-filter:focus {
+    color: #FFFFFF;
+    background: var(--accent-color);
+}
+
+.project-title {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
