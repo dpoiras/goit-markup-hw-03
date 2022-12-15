@@ -130,6 +130,9 @@ footer {
 /* hero */
 
 .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
     text-align: center;
     background: #2F303A;
 }
@@ -174,7 +177,7 @@ footer {
 /* features */
 
 .features.section {
-    padding-bottom: 24px;
+    padding-bottom: 0;
 }
 
 .features-list {
@@ -250,6 +253,10 @@ footer {
     border-radius: 0px 0px 4px 4px;
 }
 
+.team-card img {
+    display: block;
+}
+
 .team-title {
     margin-bottom: 50px;
 
@@ -286,10 +293,20 @@ footer {
 
 /* footer address */
 
-.logo.footer {
+.container.footer {
     padding-top: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
+}
 
+.address {
+    margin-top: 20px;
+}
+
+.address .item+.item {
+    margin-top: 9px;
+}
+
+.logo.footer {
     color: var(--white-color);
 }
 
@@ -375,19 +392,25 @@ footer {
 .portfolio-card {
     margin: 15px;
     width: 370px;
-    border: 1px solid #EEEEEE;
+    /* border: 1px solid #EEEEEE; */
 
 }
 
 .portfolio-card img {
-    margin-top: -1px;
-    margin-left: -1px;
+    display: block;
+}
+
+.portfolio-card .item {
+    padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .portfolio-title {
-    margin-top: 20px;
+    /* margin-top: 20px;
     margin-bottom: 4px;
-    margin-left: 24px;
+    margin-left: 24px; */
 
     color: var(--title-color);
     font-weight: 700;
@@ -397,8 +420,8 @@ footer {
 }
 
 .portfolio-text {
-    margin-bottom: 20px;
-    margin-left: 24px;
+    /* margin-bottom: 20px;
+    margin-left: 24px; */
 
     font-size: 16px;
     line-height: 1.88;
