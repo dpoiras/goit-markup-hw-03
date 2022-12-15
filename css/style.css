@@ -40,7 +40,7 @@ footer {
     padding: 0 15px;
     margin-right: auto;
     margin-left: auto;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
 }
 
 .section {
